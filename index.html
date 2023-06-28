@@ -12,17 +12,72 @@
 	<link rel="manifest" href="./img/site.webmanifest">
 </head>
 <body>
-	<header>
-		<img class="logotipo" src="./img/LogoBlanco.png" alt="Logotipo de Recirculá">
-		<nav id="menu">
-		  <ul>
-			<li><a href="#us">NOSOTROS</a></li>
-			<li><a href="#benefits">RE-BENEFICIOS</a></li>
-			<li><a href="#colection">COLECCIÓN</a></li>
-			<li><a href="#contact">CONTACTANOS</a></li>
-		  </ul>
-		</nav>
-	</header>
+	<<header class="navegador">
+        <nav id="menu">
+
+            <div class="logotipo-navegacion">
+                <a href="home.html"><img src="./img/LogoRosa.png" alt="Logotipo de Recirculá"></a>
+            </div>
+
+            <div class="items-centrales">
+                <ul>
+                    <li><a href="shop.html">SHOP</a></li>
+                    <li><a href="re-club.html">RE-CLUB</a></li>
+                    <li><a href="nosotros.html">NOSOTROS</a></li>
+                 </ul>
+            </div>
+
+        <div class="buscador">
+                <form id="form" role="search">
+                    <input type="search" id="query" name="q" placeholder="Buscar" autocomplete="email" autofocus>
+                    <button><img src="./img/buscador.svg" alt="buscador"></button>
+                </form>
+            </div>
+
+
+            <div class="items-usuario">
+                <div class="perfil">
+                    <a href="#perfil"> <img src="./img/person.svg" alt="usuario"></a>
+                </div>
+            
+                <div class="carrito">
+                    <a href="carrito.html"> <img src="./img/local_grocery_store.svg" alt="carrito"></a> 
+                </div>
+            </div>
+        </nav>
+        </div>
+        
+        <nav class="nav-responsive">
+
+            <input type="checkbox" id="check">
+            <label for="check" class="bt-menu-responsive">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <div class="logotipo-navegacion">
+                <a href="home.html"><img src="./img/LogoRosa.png" alt="Logotipo de Recirculá"></a>
+            </div>
+
+            <div class="items-menu-responsive">
+                <ul>
+                    <li><a href="shop.html">SHOP</a></li>
+                    <li><a href="re-club.html">RE-CLUB</a></li>
+                    <li><a href="nosotros.html">NOSOTROS</a></li>
+                 </ul>
+            </div>
+
+            <div class="items-usuario">
+                <div class="perfil">
+                    <a href="#perfil"> <img src="./img/person.svg" alt="usuario"></a>
+                </div>
+
+                <div class="carrito">
+                    <a href="carrito.html"> <img src="./img/local_grocery_store.svg" alt="carrito"></a> 
+                </div>
+            </div>
+
+        </nav>
+    </header>
 
 	<main>
 			<section class="intro">
