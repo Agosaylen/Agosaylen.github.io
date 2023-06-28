@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Recirculá</title>
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-rosa.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+	<header class="navegador">
+        <nav id="menu">
+
+            <div class="logotipo-navegacion">
+                <a href="home.html"><img src="./img/LogoRosa.png" alt="Logotipo de Recirculá"></a>
+            </div>
+
+            <div class="items-centrales">
+                <ul>
+                    <li><a href="shop.html">SHOP</a></li>
+                    <li><a href="re-club.html">RE-CLUB</a></li>
+                    <li><a href="nosotros.html">NOSOTROS</a></li>
+                 </ul>
+            </div>
+
+        <div class="buscador">
+                <form id="form" role="search">
+                    <input type="search" id="query" name="q" placeholder="Buscar" autocomplete="email" autofocus>
+                    <button><img src="./img/buscador.svg" alt="buscador"></button>
+                </form>
+            </div>
+
+
+            <div class="items-usuario">
+                <div class="perfil">
+                    <a href="#perfil"> <img src="./img/person.svg" alt="usuario"></a>
+                </div>
+            
+                <div class="carrito">
+                    <a href="carrito.html"> <img src="./img/local_grocery_store.svg" alt="carrito"></a> 
+                </div>
+            </div>
+        </nav>
+        </div>
+        
+        <nav class="nav-responsive">
+
+            <input type="checkbox" id="check">
+            <label for="check" class="bt-menu-responsive">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <div class="logotipo-navegacion">
+                <a href="home.html"><img src="./img/LogoRosa.png" alt="Logotipo de Recirculá"></a>
+            </div>
+
+            <div class="items-menu-responsive">
+                <ul>
+                    <li><a href="shop.html">SHOP</a></li>
+                    <li><a href="re-club.html">RE-CLUB</a></li>
+                    <li><a href="nosotros.html">NOSOTROS</a></li>
+                 </ul>
+            </div>
+
+            <div class="items-usuario">
+                <div class="perfil">
+                    <a href="#perfil"> <img src="./img/person.svg" alt="usuario"></a>
+                </div>
+
+                <div class="carrito">
+                    <a href="carrito.html"> <img src="./img/local_grocery_store.svg" alt="carrito"></a> 
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="main-cont">
+        <div class="options">
+            <div class="option active">
+
+                <div class="foto-carrousel1">
+                    <img src="./img/campera_oversized_negra.jpg" alt="foto-carrousel1">
+                </div>
+
+                <div class="option-open">
+                    <h2 class="carrousel1">Recirculá tu placard</h2>
+                    <p class="parrafo-carrousel1">Cambiamos tu ropa en buen estado por las prendas que más te gustan</p>
+                    <a href="nosotros.html"><button class="boton2-carrousel2">CONTACTANOS</button></a>
+                </div>
+                <div class="label">
+                    <p class="texto-vertical1">Recirculá</p>
+                </div>
+            </div>
+
+            <div class="option">
+                
+                <div class="foto-carrousel2">
+                    <img src="./img/sweater_de_lana_crudo.jpg" alt="foto-carrousel2">
+                </div>
+
+                <div class="option-open">
+                    <h2 class="carrousel2">Disfrutá los RE-Precios</h2>
+                    <p class="parrafo-carrousel2">Hay +500 ítems nuevos todos los meses</p>
+                    <a href="shop.html"><button class="boton2-carrousel2">SHOP ALL</button></a>
+                </div>
+               <div class="label">
+                    <p class="texto-vertical3">RE-Precios</p>
+               </div>
+            </div>
+
+            <div class="option">
+                
+                <div class="foto-carrousel3">
+                    <img src="./img/buzo_marant_black1.jpg" alt="foto-carrousel3">
+                </div>
+
+                <div class="option-open">
+                    <h2 class="carrousel3">Unite a <br>Vintage PRO</h2>
+                    <p class="parrafo-carrousel3">Y descubrí todos los artículos originales de las mejores marcas extranjeras</p>
+                    <a href="re-club.html"><button class="boton2-carrousel3">SUSCRIBITE</button></a>
+                </div>
+
+                <div class="label">
+                    <p class="texto-vertical3">VintagePRO</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="productos">
+            <div class="info-superior">
+                <div class="texto">
+                    <p>Universo Recirculá</p>
+                </div>
+            </div>
+
+            <div class="fotos-producto">
+                
+                <div class="figure1">
+                    <figure>
+                        <div class="imagen">
+                            <img class="imagen-principal" src="./img/figure1.jpg" alt="">
+                        </div>
+                        
+                            <div class="container-button">
+                                <a href="shop.html"><button class="button-secundario"><span>MUJER</span><div class="container-flecha">
+                                    <img src="./img/flecha-figure.png" alt="foto de flecha"></div></button></a>
+                            </div>
+                    </figure>
+                </div>
+
+                <div class="figure2">
+                    <figure>
+                        
+                        <img src="./img/figure2.jpg" alt="">
+                        <div class="container-button">
+                            <a href="shop.html"><button class="button-secundario"><span>CALZADOS</span><div class="container-flecha">
+                                <img src="./img/flecha-figure.png" alt="foto de flecha"></div></button></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="figure3">
+                    <figure>
+                        <img src="./img/figure3.jpg" alt="">
+                        <div class="container-button">
+                            <a href="shop.html"><button class="button-secundario"><span>HOMBRE</span><div class="container-flecha">
+                                <img src="./img/flecha-figure.png" alt="foto de flecha"></div></button></a>
+                        </div>
+                    </figure>
+                </div>
+
+                <div class="figure4">
+                    <figure>
+                        <img src="./img/figure4.jpg" alt="">
+                        <div class="container-button">
+                                <a href="shop.html"><button class="button-secundario"><span>SPORT</span><div class="container-flecha">
+                                    <img src="./img/flecha-figure.png" alt="foto de flecha"></div></button></a>
+                            </div>
+                    </figure>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <section class="banner-secundario">
+        <img class="img-banner" src="./img/banner-secundario.jpg" alt="banner persona">
+        <img class="img-banner-media" src="./img/banner-secundario-media.jpg" alt="banner persona">
+        <div class="texto-bajada">
+             <h1>New In</h1>
+             <p>Disfrutá los mejores precios de la nueva temporada</p>
+             <a href="shop.html"><button class="boton1">DESCUBRIR</button></a>
+            </div>
+    </section>
+
+    <section class="re-look">
+        <div class="content-re-look">
+            <div class="imagenes">
+                <div>
+                    <img class="pequeña" src="./img/campera-re-look.jpg" alt="foto pequeña 1">
+                </div>
+                    <img class="gif" src="./img/gif-re-look.gif" alt="gif animado">
+                <div>
+                    <img class="pequeña1" src="./img/detalle-re-look.jpg" alt="foto pequeña 2">
+                </div>
+            </div> 
+            
+            <div class="texto">
+                <p class="items">NUEVOS ÍTEMS </p>
+                <h2>El RE-look para vos</h2>
+                <p>Crea tu guardarropas con nuestras <br> mejores prendas</p>
+                <a href="shop.html"> <button class="boton1">COMPRAR</button></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <section class="footer-section">
+            <div class="info-principal">
+                <img class="logotipo-footer" src="./img/LogoRosa.png" alt="logotipo">
+                <p>Circulando tu placard, ayudás a que el mundo sea un lugar más sostenible.</p>
+                <h3>Suscribite a nuestro Newsletter</h3>
+            
+                <div class="container-footer">
+                    <form action="home.html" method="post" onsubmit="return validarformulario()">
+                        <div class="newsletter">
+                            <input class="email1" type="email" name="email" placeholder="Correo Electrónico" autocomplete="email" autofocus>
+                            <input class="boton2" type="submit" value="REGISTRARME">
+                        </div>
+                    </form>
+                </div>
+                <div class="redes-sociales">
+                    <a href=""><img src="./img/instagram.svg" alt="instagram"></a>
+                    <a href=""><img src="./img/facebook.svg" alt="whatsapp"></a>
+                    <a href=""><img src="./img/facebook.svg" alt="mail"></a>
+                </div>
+            </div>
+
+        <div class="submenus">
+            <div class="nosotros-submenus">
+                <h4>Nosotros</h4>
+				    <ul>
+					    <li><a href="">Sobre Recirculá</a></li>
+					    <li><a href="">Contacto</a></li>
+					    <li><a href="">Locales</a></li>
+					    <li><a href="">Como recircular</a></li>
+				    </ul>
+            </div>
+            
+            <div class="consulta-submenus">
+                <h4>Consultá</h4>
+				    <ul>
+					    <li><a href="">Preguntas Frecuentes</a></li>
+					    <li><a href="">Envíos y Retiros</a></li>
+					    <li><a href="">Cambios y Devoluciones</a></li>
+					    <li><a href="">Términos y Condiciones</a></li>
+				    </ul>
+            </div>
+        </div>
+
+       </section>
+       
+    <div class="info-inferior">   
+        <div class="redes-sociales-media">
+            <div class="imagenes-media">
+                <a href=""><img src="./img/instagram.svg" alt="instagram"></a>
+                <a href=""><img src="./img/facebook.svg" alt="whatsapp"></a>
+                <a href=""><img src="./img/facebook.svg" alt="mail"></a>
+            </div>
+            
+            <div class="legales-media">
+                <hr>
+                <p>©2023 Recirculá. Todos los derechos reservados</p>
+            </div>
+        </div>
+        
+        <div class="legales">
+            <hr>
+            <p>©2023 Recirculá. Todos los derechos reservados</p>
+        </div>
+    </div>
+           
+       <script src="./javascript/script.js"></script>
+    
+    </footer>
+</body>
+</html>

@@ -1,0 +1,583 @@
+/* GEN */
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.flex{
+display: flex;
+flex-direction: row;
+}
+ 
+ /*MENÚ*/
+
+#menu{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      background-color: #fff;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 20px 150px 5px 150px;
+      position: fixed;
+      z-index: 10;
+      box-shadow: 0px 1px 8px 1px rgba(0,0,0,0.6);
+  }
+
+.logotipo-navegacion{
+  width: 25%;
+}
+
+.logotipo-navegacion img{
+  max-width: 150px;
+  padding-top: 5px;
+}
+
+.items-centrales{
+  width: 30%;
+}
+
+.items-centrales ul{
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 0px;
+}
+
+.items-centrales ul li{ 
+  list-style: none;
+}
+
+.items-centrales ul li a{ 
+  text-decoration: none;
+  color: #0A3E27;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.items-centrales ul li a:hover{
+  font-weight: 700;
+}
+
+.navegador .buscador form {
+  width: 100px;
+  height: 2px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: solid 2pt #CB6E5C;
+  border-radius: 50px;
+  background-color: #fff;
+  padding: 15px 170px 15px 15px;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.navegador .buscador input {
+  all: unset;
+  font-size: 16px;
+  color: #000;
+  height: 100%;
+  padding: 6px 10px;
+}
+
+
+.navegador .buscador button {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  padding:0px 20px ;
+  margin-top: 3px;
+}
+
+.navegador .buscador ::placeholder {
+  color: #CB6E5C;
+  font-weight:400 
+}
+
+.items-usuario{
+width: 10%;
+padding: 0px;
+display: flex;
+flex-wrap: wrap;
+justify-content:space-evenly;
+margin-left: 30px;
+margin-top: 10px;
+}
+
+.items-usuario .perfil a img{
+width: 30px;
+}
+
+.items-usuario .carrito a img{
+width: 30px;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+
+/*RE CLUB*/
+
+/*TEXTO*/
+
+.texto-re-club{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+.texto-re-club .texto{
+    display: flex;
+    flex-direction: column;
+    max-height: max-content;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 120px 150px 0px 150px;
+    width: 50%;
+    }
+    
+.texto-re-club .texto .titulo-principal h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: #0A3E27;
+    }
+    
+.texto-re-club .texto .titulo-principal p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: -10px;
+    color: #0A3E27;
+    }
+    
+.texto-re-club .texto .input-google{
+    display:flex;
+    margin-top: 65px;
+    }
+    
+.texto-re-club .texto .input-google a .logo-google{
+    padding: 15px 125px 15px 125px;
+    border-radius: 50px;
+    border: 2pt solid #CB6E5C;
+    background-color: #FFF;
+    color:#0A3E27;
+    font-size: 18px;
+    font-weight: 550;
+    }
+
+    .texto-re-club .texto .input-google a .logo-google i{
+      font-size: 20px;
+      font-weight: 550;
+      margin-right: 20px;
+    }
+    
+.texto-re-club .texto .linea-separadora{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin-top: 50px;
+    }
+    
+.texto-re-club .texto .linea-separadora hr{
+    border: 2pt solid #000;
+    width: 210px;
+    padding: 0px;
+    }
+    
+.texto-re-club .texto .linea-separadora span{
+    font-size: 16px;
+    font-weight: 500;
+    color: #0A3E27;
+    margin-left: 15px;
+    margin-right: 15px;
+    }
+    
+.texto-re-club .texto .inputs{
+    margin-top: 50px;
+    }
+    
+    .texto-re-club .texto .inputs .email label{
+    display: flex;
+    color: #CB6E5C;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    }
+    
+    .texto-re-club .texto .inputs .email input[type="email"]{
+    border: 2pt solid #CB6E5C ;
+    border-radius: 50px;
+    color:#CB6E5C;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 15px 280px 15px 20px;
+    margin-bottom: 25px;
+    }
+    
+    .texto-re-club .texto .inputs .contraseña label{
+    display: flex;
+    color: #CB6E5C;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    }
+    
+    .texto-re-club .texto .inputs .contraseña input[type="password"]{
+    border: 2pt solid #CB6E5C ;
+    border-radius: 50px;
+    color:#CB6E5C;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 15px 280px 15px 20px;
+    text-align: left;
+    }
+    
+    .texto-re-club .texto .inputs .contraseña input:placeholder-shown{
+    accent-color: #CB6E5C;
+    }
+    
+    .texto-re-club .texto .opcion-recordarme{
+    display: flex;
+    margin-top: 10px;
+    margin-left: -30px;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .texto-re-club .texto .opcion-recordarme input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+    accent-color: #CB6E5C;
+    }
+    
+    input::-webkit-input-placeholder {
+    color: #CB6E5C;
+    }
+    
+    .texto-re-club .texto .opcion-recordarme label{
+    font-size: 16px;
+    font-weight: 800;
+    color: #0A3E27;
+    }
+    
+    .texto-re-club .texto .opcion-recordarme a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #0A3E27;
+    margin-left: 180px;
+    opacity: 75%;
+    }
+    
+    .texto-re-club .texto .button-login{
+    margin-top: 25px;
+    }
+    
+    .texto-re-club .texto .button-login input[type="submit"]{
+    background-color: #fff;
+    color: #CB6E5C;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 200px 15px 200px;
+    border: none;
+    border-radius: 100px;
+    box-shadow: 0px 5px 5px 5px #858585;
+    }
+
+    .texto-re-club .texto .button-login input[type="submit"]:hover{
+      background-color: #CB6E5C;
+      color: #FFF;
+    }
+
+    
+    .texto-re-club .texto .opcion-recordarme a:hover{
+    color: #CB6E5C;
+    font-weight: 500;
+    opacity: 100%;
+    }
+    
+    .texto-re-club .texto .crear-cuenta{
+    margin-top: 30px;
+    text-align: center;
+    }
+    
+    .texto-re-club .texto .crear-cuenta p{
+    color: #0A3E27;
+    font-size: 16px;
+    font-weight: 500;
+    }
+    
+    .texto-re-club .texto .crear-cuenta p a{
+    color: #0A3E27;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 75%;
+    }
+    
+    .texto-re-club .texto .crear-cuenta p a:hover{
+    color: #CB6E5C;
+    font-weight: 600;
+    opacity: 100%;
+    }
+    
+    /*TEXTO*/
+    
+    
+    /*BANNER MUJER*/
+    
+.banner-imagen{
+width: 50%;
+}
+
+.banner-imagen img{
+width: 100%;
+}
+    
+    /*BANNER MUJER*/
+    
+
+/*RE-CLUB*/
+ 
+ 
+ /*FOOTER*/
+
+ footer{
+  background-color: #0A3E27;
+  z-index: 5;
+  width: 100%;
+  max-height: 100%;
+  margin-top: 0px;
+}
+
+.footer-section{
+  padding: 100px 100px 0px 200px;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 5;
+  position: relative;
+}
+
+.info-principal{
+  width: 45%;
+}
+
+.info-principal .logotipo-footer{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 250px;
+}
+
+.footer-section .info-principal p{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 450px;
+  display: flex;
+}
+
+.footer-section h3{
+  color: #CB6E5C;
+  font-size: 23px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.footer-section .info-principal .container-footer form .newsletter input[type="email"]{
+display: flex;
+flex-wrap: wrap;
+color: #CB6E5C;
+border: solid 2pt #CB6E5C;
+border-radius: 50px;
+background-color: none;
+padding: 15px;
+font-size: 16px;
+font-weight: 400;
+width: 100%;
+}
+
+.boton2{
+  padding: 17px 25px;
+  background-color:#fff;
+  border: 0px;
+  border-radius: 100px;
+  color: #CB6E5C;
+  font-weight: bold;
+  font-size: 2.35vh;
+  font-weight: 600;
+  box-shadow: 0px 5px 5px 0px #444444;
+}
+
+.boton2:hover{
+background-color: #CB6E5C;
+color: #fff;
+transition: .3s ease-in-out all;
+}
+
+.footer-section .info-principal .container-footer form .newsletter input[type="submit"]{
+border-radius: 50px;
+background-color: none;
+padding: 10px 18px 10px 18px;
+font-size: 20px;
+font-weight: 600;
+  margin: 0 0 0 40px;
+}
+
+.footer-section .info-principal .container-footer form .newsletter{
+display: flex;
+width: 100%;
+}
+
+.footer-section .info-principal .container-footer form {
+width: 100%;
+}
+
+.footer-section .info-principal .redes-sociales{
+display: flex;
+flex-wrap:wrap;
+width: 67%;
+justify-content: center;
+margin-top: 15px;
+}
+
+.info-principal .container-footer .redes-sociales a img{
+width: 200px;
+height: 200px;
+border: 1px solid #000;  
+box-shadow: 0 4px 8px 0 #000, 0 6px 20px 0 #000;  
+} 
+
+.submenus{
+display: flex;
+flex-wrap: wrap;
+width: 55%;
+justify-content: center;
+}
+
+.submenus .nosotros-submenus{
+width: 30%;
+}
+
+.submenus .consulta-submenus{
+width: 30%;
+}
+
+.submenus .nosotros-submenus h4{
+color:#CB6E5C;
+font-size: 20px;
+font-weight: 800;
+margin-bottom: 40px;
+text-align: left;
+}
+
+.submenus .nosotros-submenus ul{
+list-style: none;
+padding-left: 0px;
+}
+  
+.submenus .nosotros-submenus ul a{
+text-decoration: none;
+color: #fff;
+font-size: 18px;
+font-weight: 600;
+position: relative;
+}
+
+.submenus .nosotros-submenus ul a:after{
+content: "";
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+height: 2px;
+width: 100%;
+background: #fff;
+/*animacion*/
+transform-origin: left;
+transform: scale(0);
+transition: transform 0.3s ease-in-out;
+}
+
+.submenus .nosotros-submenus ul a:hover:after{
+transform-origin: left;
+transform: scale(1);
+}
+
+.submenus .nosotros-submenus ul li{
+margin-top: 20px;
+}
+
+.submenus .consulta-submenus h4{
+color:#CB6E5C;
+font-size: 20px;
+font-weight: 800;
+margin-bottom: 40px;
+text-align: left;
+width: 20%;
+}
+
+.submenus .consulta-submenus ul{
+list-style: none;
+padding-left: 0px;
+}
+
+.submenus .consulta-submenus ul li{
+margin-top: 20px;
+}
+
+.submenus .consulta-submenus ul a{
+text-decoration: none;
+color: #fff;
+font-size: 18px;
+font-weight: 600;
+position: relative;
+}
+
+.submenus .consulta-submenus ul a:after{
+content: "";
+position: absolute;
+right: 0;
+bottom: 0;
+left: 0;
+height: 2px;
+width: 100%;
+background: #fff;
+/*animacion*/
+transform-origin: left;
+transform: scale(0);
+transition: transform 0.3s ease-in-out;
+}
+
+.submenus .consulta-submenus ul a:hover:after{
+  transform-origin: left;
+  transform: scale(1);  
+}
+
+.info-inferior .legales hr{
+border: 1pt solid #D9D9D9;
+opacity: 50%;
+width: 90%;
+}
+
+.info-inferior .legales p{
+color:#fff;
+font-size: 15px;
+font-weight: 500;
+padding-bottom: 20px;
+text-align: center;
+}
+
+.redes-sociales-media{
+  display: none;
+}
+
+/*FOOTER*/  

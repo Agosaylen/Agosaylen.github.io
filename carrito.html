@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recirculá</title>
+    <link rel="stylesheet" href="./styles/carrito.css">
+	<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-rosa.png">
+</head>
+<body>
+    <header class="navegador">
+        <div class="contenedor-principal">
+            <nav id="menu">
+            <div class="logotipo-navegacion">
+                <a href="home.html"><img src="./img/LogoRosa.png" alt="Logotipo de Recirculá"></a>
+            </div>
+
+            <div class="items-centrales">
+                <ul>
+                    <li><a href="shop.html">SHOP</a></li>
+                    <li><a href="re-club.html">RE-CLUB</a></li>
+                    <li><a href="nosotros.html">NOSOTROS</a></li>
+                 </ul>
+            </div>
+
+            <div class="buscador">
+                <form id="form" role="search">
+                    <input type="search" id="query" name="q" placeholder="Buscar" autocomplete="email" autofocus>
+                    <button ><img src="./img/buscador.svg" alt="buscador"></button>
+                  </form>
+            </div>
+
+
+            <div class="items-usuario">
+                <div class="perfil">
+                    <a href="#perfil"> <img src="./img/person.svg" alt="usuario"></a>
+                </div>
+            
+                <div class="carrito">
+                    <a href="#carrito"> <img src="./img/local_grocery_store.svg" alt="carrito"></a> 
+                </div>
+            </div>
+        </nav>
+            
+            <section class="banner">
+                <div class="banner-envios">
+                    <p>Envíos gratis a partir de $12.000 - Hasta 3 cuotas sin interés</p>
+                </div>
+            </section>
+
+        </div>
+    </header>
+    
+    <main>
+    <form action="a">
+        <div class="container-form1">
+            <h2>resumen</h2>
+            <input type="email" name="email" placeholder="Email">
+            <input type="text" name="direccion" placeholder="Direccion">
+            <div class="container-envio">
+                <p class="envio-rapido">Envio Rapido - $1.490.00<br>
+                <strong> entre el lunes 15/05 y el martes 16/05</strong></P>
+            </div>
+        </div>
+       
+        <h2>método de pago</h2>
+        <div class="metodo-pago">
+            <section>   
+                <input type="radio" id="tarjetacod">
+                <label for="tarjetacod">Tarjeta de Credito / Debito</label>
+            </section> 
+            <p>Hasta 3 cuotas sin interes</p>
+        </div>
+        <h3>Seleccioná tu tarjeta</h3>
+        <div class="container-form2">
+            <div class="op-tarjetas">
+                <input type="radio" id="visa" value="1">
+                <label for="visa"><img src="./img/visa.png" alt="logo visa"></label>
+                <input type="radio" id="american" value="2">
+                <label for="american"><img src="./img/american-express.png" alt="logo-express"></label>
+                <input type="radio" id="mastercard" value="3">
+                <label for="mastercard"><img src="./img/mastercard.png" alt="logo mastercard"></label>
+            </div>
+        <section>
+            <h3>DNI</h3>
+            <input type="tel" name="documento">
+            <h3>Número de tarjeta</h3>
+            <input type="tel" name="numero de tarjeta" placeholder="YYYYYY">
+            <h3>Vencimiento</h3>
+            <div>
+                <input type="month" name="vencimiento" placeholder="MM/AA">
+                <input type="tel" name="codigo de seguridad" placeholder="CVV">
+            </div>
+            <h3>Seleccioná Cuotas</h3>
+            <select name="cuotas">
+                <option value="1x$16.810,00" selected>1 x $16.810,00</option>
+                <option value="3x$5.700,00">3 x $5.700,00</option>
+            </select>
+        </section>    
+        </div>
+        <input id="boton-realizar" type="submit" value="realizar pedido">
+        <div class="op-pago">
+            <div class="op-pago1">
+                <input type="radio" id="pago-facil">
+                <label for="pago-facil">Pago facil / Rapi Pago</label>
+            </div>
+            <div class="op-pago1">
+                <section>
+                    <div>
+                        <input type="radio" id="mp">
+                        <label for="mp">Mercado Pago</label>
+                    </div>
+                    <p>Hasta 3 cuotas</p>
+                </section>
+            </div>
+        </div>
+    </form>
+    <div class="container-productos-seleccionados">
+        <div class="productos">
+            <section class="container-producto">
+                            <img class="foto-producto" src="./img/lentes.png" alt="foto-carrito">
+                        <div class="info-producto">
+                            <div>
+                                <h5>anteojos de sol Aviador</h5>
+                                <p>$7.125.000 <strong> $9.000.00</strong></p>
+                            </div>
+                                <img class="tacho" src=".\img/tacho.png" alt="tacho">
+                        </div>
+            </section>
+      
+            <section class="container-producto">
+                    <img class="foto-producto" src="./img/jogging.png" alt="foto-carrito">
+                <div class="info-producto">
+                    <div>
+                        <h5>Pantalon Rustico Happy Hour</h5>
+                        <p>$9.685.00 <strong> $14.900.00</strong></p>
+                    </div>
+                    <img class="tacho" src="./img/tacho.png" alt="tacho">
+                </div>
+           </section> 
+        </div>
+            <div class="info-total">
+                <section>
+                    <h4>Subtotal:</h4>
+                    <h4>$16.810,00</h4>
+                </section>
+                <section>
+                    <h4>Envio:</h4>
+                    <h4>Gratis</h4>
+                </section>
+                <section class="precio-total">
+                    <h3>total</h3>
+                    <h3>$16.810.00</h3>
+                </section>
+            </div>
+        </div>
+        
+        </div>
+        
+</main>
+<footer>
+    <section class="footer-section">
+        <div class="info-principal">
+            <img class="logotipo-footer" src="./img/LogoRosa.png" alt="logotipo">
+            <p>Circulando tu placard, ayudás a que el mundo sea un lugar más sostenible.</p>
+            <h3>Suscribite a nuestro Newsletter</h3>
+        
+            <div class="container-footer">
+                <form action="home.html" method="post" onsubmit="return validarformulario()">
+                    <div class="newsletter">
+                        <input class="email1" type="email" name="email" placeholder="Correo Electrónico" autocomplete="email" autofocus>
+                        <input class="boton2" type="submit" value="REGISTRARME">
+                    </div>
+                </form>
+            </div>
+            <div class="redes-sociales">
+                <a href=""><img src="./img/instagram.svg" alt="instagram"></a>
+                <a href=""><img src="./img/facebook.svg" alt="whatsapp"></a>
+                <a href=""><img src="./img/facebook.svg" alt="mail"></a>
+            </div>
+        </div>
+
+    <div class="submenus">
+        <div class="nosotros-submenus">
+            <h4>Nosotros</h4>
+                <ul>
+                    <li><a href="">Sobre Recirculá</a></li>
+                    <li><a href="">Contacto</a></li>
+                    <li><a href="">Locales</a></li>
+                    <li><a href="">Como recircular</a></li>
+                </ul>
+        </div>
+        
+        <div class="consulta-submenus">
+            <h4>Consultá</h4>
+                <ul>
+                    <li><a href="">Preguntas Frecuentes</a></li>
+                    <li><a href="">Envíos y Retiros</a></li>
+                    <li><a href="">Cambios y Devoluciones</a></li>
+                    <li><a href="">Términos y Condiciones</a></li>
+                </ul>
+        </div>
+    </div>
+
+   </section>
+   
+<div class="info-inferior">   
+    <div class="redes-sociales-media">
+        <div class="imagenes-media">
+            <a href=""><img src="./img/instagram.svg" alt="instagram"></a>
+            <a href=""><img src="./img/facebook.svg" alt="whatsapp"></a>
+            <a href=""><img src="./img/facebook.svg" alt="mail"></a>
+        </div>
+        
+        <div class="legales-media">
+            <hr>
+            <p>©2023 Recirculá. Todos los derechos reservados</p>
+        </div>
+    </div>
+    
+    <div class="legales">
+        <hr>
+        <p>©2023 Recirculá. Todos los derechos reservados a Felipe Larrañaga</p>
+    </div>
+</div>
+       
+</footer>
+
+<script src="./javascript/carrito.js"></script>
+
+</body>
+
+</html>
