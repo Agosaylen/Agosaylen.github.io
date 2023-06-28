@@ -188,49 +188,74 @@
 		</section>
 	</main>
 
-	<footer>
-		<div id="contact">
-			<div class="extra-info">
-				<div style="display: flex; flex-direction: column;">
-					<img class="logotipo" src="./img/LogoBlanco.png" alt="Logo">
-					<div>
-						<a href="#"><i class="fab fa-instagram"></i></a>
-						<a href="#"><i class="fab fa-twitter"></i></a>
-						<a href="#"><i class="fab fa-facebook-f"></i></a>
-					</div>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.2028008001435!2d-58.4051090843354!3d-34.599032980460706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca93d381a6cd%3A0x98941c9b0f7b9ea7!2sAv.%20C%C3%B3rdoba%202530%2C%20C1117%20CABA!5e0!3m2!1ses!2sar!4v1680396060033!5m2!1ses!2sar" width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-				</div>
-				<div>
-					<h6>Dirección</h6>
-					<p>Avenida Córdoba 2530, CABA, Buenos Aires</p>
-					<h6>Teléfono</h6>
-					<p>11-4025-8475</p>
-				</div>
-			</div>
-			<div class="submenus">
-				<div>
-					<h4>Nosotros</h4>
-					<ul>
-						<li><a href="">Sobre Recirculá</a></li>
-						<li><a href="">Contacto</a></li>
-						<li><a href="">Locales</a></li>
-						<li><a href="">Como recircular</a></li>
-					</ul>
-				</div>
-				<div>
-					<h4>Consultá</h4>
-					<ul>
-						<li><a href="">Consultá</a></li>
-						<li><a href="">Preguntas Frecuentes</a></li>
-						<li><a href="">Envíos y Retiros</a></li>
-						<li><a href="">Cambios y Devoluciones</a></li>
-						<li><a href="">Términos y Condiciones</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<hr>	
-		<p class="derechosdeautor">©2023 Recirculá. Todos los derechos reservados</p>
-	</footer>
+	 <footer>
+        <section class="footer-section">
+            <div class="info-principal">
+                <img class="logotipo-footer" src="./img/LogoRosa.png" alt="logotipo">
+                <p>Circulando tu placard, ayudás a que el mundo sea un lugar más sostenible.</p>
+                <h3>Suscribite a nuestro Newsletter</h3>
+            
+                <div class="container-footer">
+                    <form action="home.html" method="post" onsubmit="return validarformulario()">
+                        <div class="newsletter">
+                            <input class="email1" type="email" name="email" placeholder="Correo Electrónico" autocomplete="email" autofocus>
+                            <input class="boton2" type="submit" value="REGISTRARME">
+                        </div>
+                    </form>
+                </div>
+                <div class="redes-sociales">
+                    <a href=""><img src="./img/instagram.svg" alt="instagram"></a>
+                    <a href=""><img src="./img/facebook.svg" alt="whatsapp"></a>
+                    <a href=""><img src="./img/facebook.svg" alt="mail"></a>
+                </div>
+            </div>
+
+        <div class="submenus">
+            <div class="nosotros-submenus">
+                <h4>Nosotros</h4>
+				    <ul>
+					    <li><a href="">Sobre Recirculá</a></li>
+					    <li><a href="">Contacto</a></li>
+					    <li><a href="">Locales</a></li>
+					    <li><a href="">Como recircular</a></li>
+				    </ul>
+            </div>
+            
+            <div class="consulta-submenus">
+                <h4>Consultá</h4>
+				    <ul>
+					    <li><a href="">Preguntas Frecuentes</a></li>
+					    <li><a href="">Envíos y Retiros</a></li>
+					    <li><a href="">Cambios y Devoluciones</a></li>
+					    <li><a href="">Términos y Condiciones</a></li>
+				    </ul>
+            </div>
+        </div>
+
+       </section>
+       
+    <div class="info-inferior">   
+        <div class="redes-sociales-media">
+            <div class="imagenes-media">
+                <a href=""><img src="./img/instagram.svg" alt="instagram"></a>
+                <a href=""><img src="./img/facebook.svg" alt="whatsapp"></a>
+                <a href=""><img src="./img/facebook.svg" alt="mail"></a>
+            </div>
+            
+            <div class="legales-media">
+                <hr>
+                <p>©2023 Recirculá. Todos los derechos reservados</p>
+            </div>
+        </div>
+        
+        <div class="legales">
+            <hr>
+            <p>©2023 Recirculá. Todos los derechos reservados</p>
+        </div>
+    </div>
+           
+       <script src="./javascript/script.js"></script>
+    
+    </footer>
 </body>
 </html>
